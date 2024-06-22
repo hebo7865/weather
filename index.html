@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">    
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<section>
+    <header>
+        <div class="container px-5">
+            <nav class="navbar py-3 navbar-expand-lg">
+                <div class="container-fluid">
+                  <img class="logo" src="images/logo@2x.png" alt="logo">
+                  <a class="navbar-brand" href="#">Weather</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item mx-4">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">News</a>
+                      </li>
+                      <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">Live cameras</a>
+                      </li>
+                      <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">Photos</a>
+                      </li>
+                      <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <main class="p-2">
+
+        <div class="container  w-75 mx-auto px-5">
+            <div class="search-bar w-75 mx-auto mt-2">
+                <div class="d-flex justify-content-between p-2 rounded-pill gap-3 bar">
+                    <input type="text" id="cityName" class="form-control bg-transparent" placeholder="Find your location">
+                    <button id="search" class="btn rounded-pill bg-warning-subtle px-4 search-btn">Find</button>
+                </div>
+            </div>
+
+
+            <div id="weather" class="row weather my-3">
+                <div id="todayWeather" class="bg-black bg-opacity-50 rounded-4 col-md-8 offset-md-2 text-center py-4 today-weather">
+
+                </div>
+
+                <div class="day-two mt-3 pt-3 text-center col-md-4 col-sm-6 offset-md-2 bg-black bg-opacity-50">
+
+                </div>
+                <div class="day-three mt-3 pt-3 text-center col-md-4 col-sm-6 bg-black bg-opacity-50">
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer class=" bg-black bg-opacity-75">
+      <div class="container p-5">
+        <div class="row  w-75 mx-auto">
+          <div class="col-md-8">
+            <form action="#" class="bg-dark d-flex gap-3 p-2 rounded-5">
+              <input id="subscribe" type="text" placeholder="Enter your email to subscribe..." class="form-control rounded-5 bg-transparent">
+              <input type="submit" value="Subscribe" class="btn bg-warning-subtle rounded-5">
+            </form>
+          </div>
+          <div class="col-md-3 offset-1">
+            <div class="links p-1">
+              <ul class="bg-dark rounded-5 p-2 d-flex justify-content-between align-items-center list-unstyled">
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-75 mx-auto mt-3">
+          <p class="ms-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+</section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

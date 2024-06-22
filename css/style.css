@@ -1,0 +1,105 @@
+body{
+    font-family: "Nunito", sans-serif;
+    color: white;
+}
+
+section
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+header
+{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar a
+{
+    color: white;
+}
+
+#cityName,
+#subscribe
+{
+    border-color: transparent;
+    color: white;
+}
+
+#cityName:focus,
+#subscribe:focus
+{
+    box-shadow: none;
+    color: white;
+    background-color: transparent;
+}
+
+.logo
+{
+    width: 60px;
+    margin-right: 10px;
+}
+
+.bar
+{
+    background-color: rgba(0, 0, 0, 0.426);
+}
+
+::placeholder
+{
+    color: white !important;
+}
+
+.date-time
+{
+    border-bottom: 1px solid white;
+}
+
+.date-time p
+{
+
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+h2
+{
+    font-size: 5rem;
+    font-weight: 800;
+    margin: 2px;
+}
+
+.weather-desc p img
+{
+    margin-right: 10px;
+}
+
+.day{
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.day p
+{
+    margin-bottom: 10px;
+}
+
+.day-two
+{
+    border-right: 1px solid snow;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.day-three
+{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: white;
+}
